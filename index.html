@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="id" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeXora AI - Landing Page</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class'
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-950 text-gray-800 dark:text-white font-sans transition-colors duration-300">
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="sticky top-0 z-50 bg-white/90 dark:bg-gray-900/90 backdrop-blur border-b border-gray-200 dark:border-gray-800">
+
+    <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
+
+        <h1 class="text-2xl font-extrabold text-blue-600">
+            NeXora<span class="text-purple-500">.AI</span>
+        </h1>
+
+        <div class="hidden md:flex gap-8 font-medium">
+            <a href="#home" class="hover:text-blue-500">Beranda</a>
+            <a href="#smart" class="hover:text-blue-500">Technology</a>
+            <a href="#features" class="hover:text-blue-500">Fitur</a>
+            <a href="#pricing" class="hover:text-blue-500">Harga</a>
+        </div>
+
+        <div class="flex items-center gap-3">
+
+            <button onclick="toggleDark()"
+                class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700">
+                <span id="themeIcon">☀️</span>
+            </button>
+
+            <a href="#pricing"
+                class="hidden sm:block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">
+                Mulai Sekarang
+            </a>
+
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- ================= HERO SECTION ================= -->
+
+<section id="home" class="max-w-7xl mx-auto px-6 py-24 text-center">
+
+    <span class="bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 px-4 py-2 rounded-full text-sm">
+        🚀 Inovasi Teknologi Masa Depan
+    </span>
+
+    <h2 class="text-4xl md:text-6xl font-extrabold mt-8 leading-tight">
+
+        Ubah Cara Kerjamu
+        <br>
+
+        dengan
+
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
+            Kecerdasan AI
+        </span>
+
+    </h2>
+
+    <p class="max-w-2xl mx-auto mt-6 text-gray-600 dark:text-gray-400 text-lg">
+
+        NeXora AI membantu pekerjaan menjadi lebih cepat,
+        praktis, dan efisien melalui teknologi kecerdasan buatan
+        yang inovatif.
+
+    </p>
+
+    <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+
+        <a href="#pricing"
+            class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold">
+            Jelajahi Sekarang
+        </a>
+
+        <a href="#features"
+            class="bg-gray-200 dark:bg-gray-800 px-8 py-4 rounded-xl font-semibold hover:bg-gray-300 dark:hover:bg-gray-700">
+            Lihat Fitur
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SMART TECHNOLOGY ================= -->
+
+<section id="smart" class="py-16">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-12">
+
+            <h2 class="text-3xl md:text-4xl font-bold">
+                Smart Technology
+            </h2>
+
+            <p class="text-gray-500 dark:text-gray-400 mt-4">
+                Teknologi pintar untuk masa depan yang lebih baik.
+            </p>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- CARD 1 -->
+
+            <div class="rounded-3xl p-8 text-center bg-gradient-to-br from-blue-600 to-cyan-500 shadow-xl hover:-translate-y-2 transition duration-300">
+
+                <div class="text-6xl mb-5">🤖</div>
+
+                <h3 class="text-2xl font-bold text-white">
+                    Smart AI
+                </h3>
+
+                <p class="text-blue-100 mt-3">
+                    Teknologi kecerdasan buatan untuk membantu
+                    pekerjaan menjadi lebih mudah.
+                </p>
+
+            </div>
+
+
+            <!-- CARD 2 -->
+
+            <div class="rounded-3xl p-8 text-center bg-gradient-to-br from-purple-600 to-pink-500 shadow-xl hover:-translate-y-2 transition duration-300">
+
+                <div class="text-6xl mb-5">💻</div>
+
+                <h3 class="text-2xl font-bold text-white">
+                    Digital Innovation
+                </h3>
+
+                <p class="text-purple-100 mt-3">
+                    Inovasi digital modern untuk mendukung
+                    kreativitas dan produktivitas.
+                </p>
+
+            </div>
+
+
+            <!-- CARD 3 -->
+
+            <div class="rounded-3xl p-8 text-center bg-gradient-to-br from-orange-500 to-red-500 shadow-xl hover:-translate-y-2 transition duration-300">
+
+                <div class="text-6xl mb-5">🚀</div>
+
+                <h3 class="text-2xl font-bold text-white">
+                    Future Technology
+                </h3>
+
+                <p class="text-orange-100 mt-3">
+                    Mengembangkan teknologi masa depan
+                    yang cepat, praktis, dan inovatif.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES SECTION ================= -->
+
+<section id="features" class="py-20 bg-gray-100 dark:bg-gray-900">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-14">
+
+            <h2 class="text-3xl md:text-4xl font-bold">
+                6 Fitur Unggulan Kami
+            </h2>
+
+            <p class="text-gray-500 dark:text-gray-400 mt-4">
+                Nikmati berbagai teknologi modern untuk mempermudah aktivitasmu.
+            </p>
+
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <!-- FITUR 1 -->
+
+            <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition duration-300">
+
+                <div class="text-5xl mb-5">⚡</div>
+
+                <h3 class="text-xl font-bold mb-3">
+                    Super Cepat
+                </h3>
+
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                    Membantu menyelesaikan berbagai pekerjaan
+                    secara cepat dan efisien.
+                </p>
+
+            </div>
+
+
+            <!-- FITUR 2 -->
+
+            <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition duration-300">
+
+                <div class="text-5xl mb-5">🔐</div>
+
+                <h3 class="text-xl font-bold mb-3">
+                    Sistem Aman
+                </h3>
+
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                    Perlindungan data dan keamanan sistem
+                    menjadi prioritas utama kami.
+                </p>
+
+            </div>
+
+
+            <!-- FITUR 3 -->
+
+            <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition duration-300">
+
+                <div class="text-5xl mb-5">🌐</div>
+
+                <h3 class="text-xl font-bold mb-3">
+                    Mudah Terhubung
+                </h3>
+
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                    Dapat diintegrasikan dengan berbagai
+                    platform dan aplikasi digital.
+                </p>
+
+            </div>
+
+
+            <!-- FITUR 4 -->
+
+            <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition duration-300">
+
+                <div class="text-5xl mb-5">🤖</div>
+
+                <h3 class="text-xl font-bold mb-3">
+                    Asisten AI Pintar
+                </h3>
+
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                    Membantu menjawab pertanyaan dan memberikan
+                    informasi dengan teknologi kecerdasan buatan.
+                </p>
+
+            </div>
+
+
+            <!-- FITUR 5 -->
+
+            <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition duration-300">
+
+                <div class="text-5xl mb-5">📊</div>
+
+                <h3 class="text-xl font-bold mb-3">
+                    Analisis Data
+                </h3>
+
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                    Membantu mengolah dan menganalisis data
+                    agar lebih mudah dipahami.
+                </p>
+
+            </div>
+
+
+            <!-- FITUR 6 -->
+
+            <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition duration-300">
+
+                <div class="text-5xl mb-5">💡</div>
+
+                <h3 class="text-xl font-bold mb-3">
+                    Ide Kreatif
+                </h3>
+
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                    Membantu menghasilkan inspirasi dan ide
+                    kreatif untuk berbagai kebutuhan.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRICING SECTION ================= -->
+
+<section id="pricing" class="py-20 max-w-6xl mx-auto px-6">
+
+    <div class="text-center mb-14">
+
+        <h2 class="text-3xl md:text-4xl font-bold">
+            Pilihan Paket
+        </h2>
+
+        <p class="text-gray-500 dark:text-gray-400 mt-4">
+            Pilih paket yang sesuai dengan kebutuhanmu.
+        </p>
+
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+
+        <!-- BASIC -->
+
+        <div class="p-8 rounded-3xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg">
+
+            <h3 class="text-2xl font-bold">
+                Basic
+            </h3>
+
+            <p class="text-gray-500 dark:text-gray-400 mt-2">
+                Untuk pengguna pemula.
+            </p>
+
+            <div class="my-7">
+
+                <span class="text-4xl font-extrabold">
+                    Rp 79.000
+                </span>
+
+                <span class="text-gray-500">
+                    /bulan
+                </span>
+
+            </div>
+
+            <ul class="space-y-4 text-sm mb-8">
+
+                <li>✅ Akses fitur dasar AI</li>
+                <li>✅ 5.000 Request AI</li>
+                <li>✅ Bantuan pengguna</li>
+                <li>✅ Pembaruan sistem</li>
+
+            </ul>
+
+            <button onclick="pilihPaket('Basic')"
+                class="w-full py-3 rounded-xl bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 font-bold hover:bg-blue-200 dark:hover:bg-blue-800">
+
+                Pilih Basic
+
+            </button>
+
+        </div>
+
+
+        <!-- PREMIUM -->
+
+        <div class="p-8 rounded-3xl bg-gradient-to-br from-blue-600 to-purple-700 text-white shadow-xl relative">
+
+            <span class="absolute top-4 right-5 bg-yellow-400 text-black text-xs px-3 py-1 rounded-full font-bold">
+                POPULER
+            </span>
+
+            <h3 class="text-2xl font-bold">
+                Premium
+            </h3>
+
+            <p class="text-blue-100 mt-2">
+                Untuk kebutuhan profesional.
+            </p>
+
+            <div class="my-7">
+
+                <span class="text-4xl font-extrabold">
+                    Rp 199.000
+                </span>
+
+                <span class="text-blue-100">
+                    /bulan
+                </span>
+
+            </div>
+
+            <ul class="space-y-4 text-sm mb-8">
+
+                <li>✅ Akses semua fitur AI</li>
+                <li>✅ Request AI lebih banyak</li>
+                <li>✅ Integrasi berbagai aplikasi</li>
+                <li>✅ Prioritas bantuan pengguna</li>
+
+            </ul>
+
+            <button onclick="pilihPaket('Premium')"
+                class="w-full py-3 rounded-xl bg-white text-blue-700 font-bold hover:bg-blue-100">
+
+                Pilih Premium
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-12">
+
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+
+        <div class="text-center md:text-left">
+
+            <h2 class="text-2xl font-extrabold text-blue-600">
+                NeXora.AI
+            </h2>
+
+            <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">
+                © 2026 NeXora AI. All Rights Reserved.
+            </p>
+
+        </div>
+
+        <div class="flex gap-6 text-sm text-gray-500 dark:text-gray-400">
+
+            <a href="#home" class="hover:text-blue-500">Beranda</a>
+
+            <a href="#features" class="hover:text-blue-500">Fitur</a>
+
+            <a href="#pricing" class="hover:text-blue-500">Harga</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+    function toggleDark() {
+
+        document.documentElement.classList.toggle('dark');
+
+        const icon = document.getElementById('themeIcon');
+
+        if (document.documentElement.classList.contains('dark')) {
+            icon.innerHTML = '☀️';
+        } else {
+            icon.innerHTML = '🌙';
+        }
+
+    }
+
+
+    function pilihPaket(nama) {
+
+        alert('Terima kasih! Kamu memilih paket ' + nama + '.');
+
+    }
+
+</script>
+
+</body>
+</html>
